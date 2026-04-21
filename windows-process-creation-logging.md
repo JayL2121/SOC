@@ -219,3 +219,4 @@ This lab demonstrates:
 - [MITRE ATT&CK — Living off the Land](https://attack.mitre.org/techniques/T1218/)
 - [Microsoft Docs — Audit Process Creation](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-process-creation)
 - [Microsoft Docs — Event ID 4688](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688)
+
