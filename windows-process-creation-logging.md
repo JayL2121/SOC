@@ -200,23 +200,3 @@ gpupdate /force
 | LOLBins | Legitimate Windows tools abused by attackers — detectable via command line args |
 
 ---
-
-## SOC Relevance
-
-In a real SOC environment, 4688 events with command line logging feed directly into a SIEM (Splunk, Microsoft Sentinel, Wazuh) where detection rules alert on suspicious process chains. Understanding the raw event structure — before it hits the SIEM — makes you a better analyst and a better detection engineer.
-
-This lab demonstrates:
-- Windows audit policy configuration
-- Security event log querying and parsing
-- Basic threat hunting logic
-- Understanding of attacker techniques (LOLBins, encoded PowerShell)
-
----
-
-## References
-
-- [MITRE ATT&CK — Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059/)
-- [MITRE ATT&CK — Living off the Land](https://attack.mitre.org/techniques/T1218/)
-- [Microsoft Docs — Audit Process Creation](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-process-creation)
-- [Microsoft Docs — Event ID 4688](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688)
-
