@@ -1,7 +1,7 @@
 # Windows Process Creation Logging & Command Line Auditing
 
 **Author:** Jordan Lankster  
-**Lab Type:** Windows Security Auditing / SOC Home Lab  
+**Lab Type:** Windows Security Auditing  
 **Tools Used:** PowerShell, Windows Event Viewer, Group Policy, Audit Policy  
 **Event ID:** 4688 — Process Creation  
 
